@@ -1,0 +1,86 @@
+body {
+    background-color: #161d22;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.heading {
+    font-family: Varela;
+    font-size: 40px;
+    padding-top: 10px;
+    margin: 0px;
+    color: rgb(241, 31, 31);
+    letter-spacing: 2px;
+}
+
+.content {
+    position: relative;
+}
+
+.img {
+    
+    position: absolute;
+    left: 300px;
+    width: 1058px;
+    height: 450px;
+}
+.info {
+    position: absolute;
+    left: 20px;
+    right: 800px;
+    color: white;
+    font-family: Varela;
+}
+
+.imgNav {
+    display: flex;
+    left: 15px;
+    bottom: 0px;
+    padding-bottom: 10px;
+    position: fixed;
+    list-style-type: none;
+}
+
+.imgNav a img.levels{
+    transition: transform .2s;
+    width: 220px;
+    height: 155px;
+    padding: 3px;
+}
+
+.imgNav a img:hover {
+    transform: scale(1.1);
+    border: solid;
+    border-radius: 8%;
+    color: white;
+}
+
+.imgNav a .active {
+    border: solid;
+    border-width: 2px;
+    border-color: rgb(241, 31, 31);
+    border-radius: 8%;
+}
+
+.imgNav a .active:hover{
+    transform: scale(1.1);
+    border: solid;
+    border-radius: 8%;
+    color: rgb(241, 31,31);
+}
+
+.imgNav a img.home {
+    width: 100px;
+    margin-right: 7px;
+    border-style: solid;
+    border-color: #161d22;
+    border-width: 1px;
+}
+
+.imgNav a img.quiz {
+    width: 100px;
+    margin-left: 5px;
+    border-style: solid;
+    border-color: #161d22;
+    border-width: 1px;
+}

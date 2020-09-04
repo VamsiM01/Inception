@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-image: url("../Pics/quizBg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(241, 31, 31);
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 2px 2px black;
+}
+h3 {
+    color: rgb(241, 31, 31);
+    background-color: #0f222b;
+    padding:10px;
+    padding-left: 15px;
+    margin:0px;
+}
+.card {
+    display: grid;
+    width: 700px;
+    margin:auto;
+    background-color: #161d22;
+}
+span {
+    padding: 10px;
+}
+label {
+    font-family: Roboto;
+    padding-left: 3px;
+    color: white;
+}
+
+.bottom-link{
+    text-align: center;
+    padding: 40px;
+    
+}
+
+.bottom-link a {
+    padding: 10px 20px;
+    background-color: #161d22;
+    text-decoration: none;
+    color:white;
+    border: 2px solid white;
+    font-family: Roboto;
+}
